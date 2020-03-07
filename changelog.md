@@ -29,11 +29,27 @@ I have released a video course to help you become a better developer — <a href
 
 <br>
 
+### RELEASE: [3.0.0](https://github.com/ahmadawais/wp-file-header-metadata/compare/2.0.0...3.0.0)
+
+![BREAKING](https://img.shields.io/badge/-BREAKING%20CHANGES-gray.svg?colorB=F91800)
+
+> ‼️ Function name change [`3f13213`](https://github.com/ahmadawais/wp-file-header-metadata/commit/3f13213e79dc881711de9a19ba15d0f1106635f2) <br>
+
+<br>
+
+[![hr](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/hr.png)](/)
+
+<br>
+
 ### RELEASE: [2.0.0](https://github.com/ahmadawais/wp-file-header-metadata/compare/1.1.0...2.0.0)
 
 ![BREAKING](https://img.shields.io/badge/-BREAKING%20CHANGES-gray.svg?colorB=F91800)
 
 > ‼️ Function names [`e33e88b`](https://github.com/ahmadawais/wp-file-header-metadata/commit/e33e88bfc9b552200465b2a723d59fac0bbd34c0) <br>
+
+![📖 DOC:](https://img.shields.io/badge/-DOCS-gray.svg?colorB=978CD4)
+
+> 📖 Changelog update [`c68a1a8`](https://github.com/ahmadawais/wp-file-header-metadata/commit/c68a1a81e613e17b749b577025b070e1860d7dc3) <br>
 
 <br>
 
