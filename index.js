@@ -8,7 +8,7 @@ const fs = require('fs').promises;
  * @author Tim Elsass
  * @forked Ahmad Awais
  */
-const getVersion = async (key, filename) => {
+const getValue = async (key, filename) => {
 	const file = `${process.cwd()}/${filename}`;
 
 	let content = await fs.readFile(file, 'utf8');
@@ -30,7 +30,7 @@ const getVersion = async (key, filename) => {
  * @author Tim Elsass
  * @forked Ahmad Awais
  */
-const updateVersion = async (key, newValue, filename) => {
+const updateValue = async (key, newValue, filename) => {
 	const file = `${process.cwd()}/${filename}`;
 	const regex = new RegExp(`^([ \t\/*#@]*${key}*?:[\t ]*)(.*)$`, 'mi');
 	let content = await fs.readFile(file, 'utf8');
@@ -39,6 +39,6 @@ const updateVersion = async (key, newValue, filename) => {
 };
 
 module.exports = {
-	getVersion,
-	updateVersion
+	getValue,
+	updateValue
 };
