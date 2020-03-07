@@ -1,6 +1,6 @@
 {
 	"name": "wp-file-header-metadata",
-	"version": "1.1.0",
+	"version": "2.0.0",
 	"description": "Manipulate WordPress file header comment metadata.",
 	"license": "MIT",
 	"repository": "ahmadawais/wp-file-header-metadata",
