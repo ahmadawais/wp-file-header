@@ -1,0 +1,24 @@
+{
+	"name": "wp-file-header",
+	"version": "0.0.1",
+	"description": "Manipulate WordPress file header comment metadata.",
+	"license": "MIT",
+	"repository": "ahmadawais/wp-file-header",
+	"author": {
+		"name": "Ahmad Awais",
+		"email": "me@AhmadAwais.com",
+		"url": "https://twitter.com/MrAhmadAwais"
+	},
+	"main": "index.js",
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"wp-file-header",
+		"Ahmad Awais",
+		"ahmadawais"
+	],
+	"scripts": {
+		"test": "node test.js"
+	}
+}
