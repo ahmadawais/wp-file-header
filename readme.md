@@ -88,6 +88,7 @@ E.g: `readme.txt`
 ## License & Conduct
 
 - MIT © [Ahmad Awais](https://twitter.com/MrAhmadAwais/)
+- Thanks a lot to Tim Elsass for the initial regex handling work.
 - [Code of Conduct](code-of-conduct.md)
 
 <br>
