@@ -25,7 +25,7 @@ npm install wp-file-header-metadata
 const wpFileHeader = require('wp-file-header-metadata');
 
 // Or better yet get the functions destructured.
-const { getValue, updateValue } = require('wp-file-header-metadata');
+const { getValue, setValue } = require('wp-file-header-metadata');
 ```
 
 <br />
@@ -46,7 +46,7 @@ E.g: `Tested up to`
 Type: `string`<br>
 E.g: `readme.txt`
 
-### updateValue(key, newValue, filename)
+### setValue(key, newValue, filename)
 
 #### ❯ key
 
@@ -62,8 +62,6 @@ E.g: `5.4.0`
 
 Type: `string`<br>
 E.g: `readme.txt`
-
-
 
 <br>
 

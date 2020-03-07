@@ -30,7 +30,7 @@ const getValue = async (key, filename) => {
  * @author Tim Elsass
  * @forked Ahmad Awais
  */
-const updateValue = async (key, newValue, filename) => {
+const setValue = async (key, newValue, filename) => {
 	const file = `${process.cwd()}/${filename}`;
 	const regex = new RegExp(`^([ \t\/*#@]*${key}*?:[\t ]*)(.*)$`, 'mi');
 	let content = await fs.readFile(file, 'utf8');
@@ -40,5 +40,5 @@ const updateValue = async (key, newValue, filename) => {
 
 module.exports = {
 	getValue,
-	updateValue
+	setValue
 };
