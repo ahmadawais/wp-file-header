@@ -23,7 +23,47 @@ npm install wp-file-header
 
 ```js
 const wpFileHeader = require('wp-file-header');
+
+// Or better yet get the functions destructured.
+const { getVersion, updateVersion } = require('wp-file-header');
 ```
+
+<br />
+
+[![📃](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/options.png)](./../../)
+
+## API
+
+### getVersion(key, filename)
+
+#### ❯ key
+
+Type: `string`<br>
+E.g: `Tested up to`
+
+#### ❯ filename
+
+Type: `string`<br>
+E.g: `readme.txt`
+
+### updateVersion(key, newValue, filename)
+
+#### ❯ key
+
+Type: `string`<br>
+E.g: `Tested up to`
+
+#### ❯ newValue
+
+Type: `string`<br>
+E.g: `5.4.0`
+
+#### ❯ filename
+
+Type: `string`<br>
+E.g: `readme.txt`
+
+
 
 <br>
 
