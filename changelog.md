@@ -29,12 +29,36 @@ I have released a video course to help you become a better developer — <a href
 
 <br>
 
+### RELEASE: [1.1.0](https://github.com/ahmadawais/wp-file-header-metadata/compare/1.0.0...1.1.0)
+
+![📦 NEW:](https://img.shields.io/badge/-NEW-gray.svg?colorB=3778FF)
+
+> 📦 Better name [`40d51e9`](https://github.com/ahmadawais/wp-file-header-metadata/commit/40d51e994b1abc68df7179f6a382248a0d83d2e0) <br>
+
+![👌 IMPROVE:](https://img.shields.io/badge/-IMPROVEMENT-gray.svg?colorB=39AA54)
+
+> 👌 Credits [`9b944f5`](https://github.com/ahmadawais/wp-file-header-metadata/commit/9b944f5f7839811ba5c0fc84a1607eab539bf94c) <br>
+
+![🐛 FIX:](https://img.shields.io/badge/-FIX-gray.svg?colorB=ff6347)
+
+> 🐛 Format [`6d5f300`](https://github.com/ahmadawais/wp-file-header-metadata/commit/6d5f300cdef92514e421b8b70f6f0af42d9a2878) <br>
+
+<br>
+
+[![hr](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/hr.png)](/)
+
+<br>
+
 ### RELEASE: 1.0.0
 
 ![📦 NEW:](https://img.shields.io/badge/-NEW-gray.svg?colorB=3778FF)
 
 > 📦 First commit [`469495f`](https://github.com/ahmadawais/wp-file-header-metadata/commit/469495f52f8e756be3657bee1aea3079a066a52d) <br>
 > 📦 First version [`0162ed4`](https://github.com/ahmadawais/wp-file-header-metadata/commit/0162ed4f7afc79f394e53dfa4bd48774e1a95170) <br>
+
+![📖 DOC:](https://img.shields.io/badge/-DOCS-gray.svg?colorB=978CD4)
+
+> 📖 Changelog update [`823007b`](https://github.com/ahmadawais/wp-file-header-metadata/commit/823007b0c8693df8f797848e034390e580b38bba) <br>
 
 <br>
 
