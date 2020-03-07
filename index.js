@@ -1,4 +1,4 @@
-const fs = require("fs").promises;
+const fs = require('fs').promises;
 
 /**
  * Finds key in a WordPress plugin header file.
@@ -11,13 +11,13 @@ const fs = require("fs").promises;
 const getVersion = async (key, filename) => {
 	const file = `${process.cwd()}/${filename}`;
 
-	let content = await fs.readFile(file, "utf8");
-	content = content.replace(/\r/g, "\n");
+	let content = await fs.readFile(file, 'utf8');
+	content = content.replace(/\r/g, '\n');
 
-	let regex = new RegExp(`^[ \t\/*#@]*${key}*?:(.*)$`, "mi");
+	let regex = new RegExp(`^[ \t\/*#@]*${key}*?:(.*)$`, 'mi');
 	let match = regex.exec(content);
 
-	const header = match[1].replace(/\s*(?:\*\/|\?>).*/, "").trim();
+	const header = match[1].replace(/\s*(?:\*\/|\?>).*/, '').trim();
 	return header;
 };
 
@@ -32,10 +32,10 @@ const getVersion = async (key, filename) => {
  */
 const updateVersion = async (key, newValue, filename) => {
 	const file = `${process.cwd()}/${filename}`;
-	const regex = new RegExp(`^([ \t\/*#@]*${key}*?:[\t ]*)(.*)$`, "mi");
-	let content = await fs.readFile(file, "utf8");
+	const regex = new RegExp(`^([ \t\/*#@]*${key}*?:[\t ]*)(.*)$`, 'mi');
+	let content = await fs.readFile(file, 'utf8');
 	content = content.replace(regex, `$1${newValue}`);
-	await fs.writeFile(file, content, "utf8");
+	await fs.writeFile(file, content, 'utf8');
 };
 
 module.exports = {
