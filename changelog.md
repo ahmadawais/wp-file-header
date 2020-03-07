@@ -33,8 +33,8 @@ I have released a video course to help you become a better developer — <a href
 
 ![📦 NEW:](https://img.shields.io/badge/-NEW-gray.svg?colorB=3778FF)
 
-> 📦 First commit [`469495f`](https://github.com/ahmadawais/wp-file-header/commit/469495f52f8e756be3657bee1aea3079a066a52d) <br>
-> 📦 First version [`0162ed4`](https://github.com/ahmadawais/wp-file-header/commit/0162ed4f7afc79f394e53dfa4bd48774e1a95170) <br>
+> 📦 First commit [`469495f`](https://github.com/ahmadawais/wp-file-header-metadata/commit/469495f52f8e756be3657bee1aea3079a066a52d) <br>
+> 📦 First version [`0162ed4`](https://github.com/ahmadawais/wp-file-header-metadata/commit/0162ed4f7afc79f394e53dfa4bd48774e1a95170) <br>
 
 <br>
 
